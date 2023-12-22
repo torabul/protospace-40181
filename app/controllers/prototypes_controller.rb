@@ -52,7 +52,7 @@ class PrototypesController < ApplicationController
     @prototype = Prototype.find(params[:id])
   end
 
-  def move_to_index
+  def move_to_sing_in
     unless user_signed_in?
       redirect_to action: :new
     end
