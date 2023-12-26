@@ -64,7 +64,7 @@ development:
   username: root
   password:
   host: localhost
-  database: protospace-40181_development
+  database: protospace_40181_development
 
 test:
   <<: *default
